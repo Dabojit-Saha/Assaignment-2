@@ -1,0 +1,32 @@
+@media (min-width:0px) and (max-width:600px) {
+   
+   .container{
+    width: auto;
+    margin: 0 20px;
+   }
+    nav ul{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+   }
+   .hamburger{
+    display: block;
+   }
+   #banner{
+    background-position: center;
+    background-size: cover;
+
+   }
+    .banner-src-box{
+        flex-direction: column;
+        height: fit-content;
+        width: auto;
+    }   
+    .navlogo h1 , .banner-head h2{
+        font-size: 2rem;
+    } 
+    .banner-head{
+        padding: 25px 20px;
+    }
+    
+}

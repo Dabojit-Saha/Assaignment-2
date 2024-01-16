@@ -16,10 +16,12 @@ a{
     margin: 0 auto;
 }
 .primary-button{
+    width: 175px;
     color: var(--main-color);
-    font-size: 16px;
+    font-size: 1rem;
     font-family: var(--primary-font);
     font-weight: 700;
+    text-align: center;
     background: var(--primary-color);
     padding: 15px 30px;
     border-radius: 8px;
@@ -27,6 +29,19 @@ a{
 }
 .primary-button:hover{
     background: #332941;
+}
+.primary-heading{
+    color: var(--third-color);
+font-size: 2.5rem;
+font-family: var(--primary-font);
+font-weight: 800;
+}
+.primary-p{
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    
 }
 /* common css end */
 /* varriables */
@@ -46,17 +61,17 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.navlogo{
+.nav-logo{
     display: flex;
     gap: 15px;
 }
-.navlogo h1{
+.nav-logo h1{
     color: var(--third-color);
-    font-size: 36px;
+    font-size: 2.4rem;
     font-family: var(--primary-font);
     font-weight: 800;
 }
-.navlogo h1 span{
+.nav-logo h1 span{
     color: var(--primary-color);
 }
 nav ul{
@@ -66,17 +81,21 @@ nav ul{
 }
 nav ul li a{
     color: #424247;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-family: var(--primary-font);
     font-weight: 400;
 }
+.hamburger{
+    font-size: 2.4rem;
+    display: none;
+}
+
 /* nav css end */
 /* banner css start */
 #banner{
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     border-radius: 16px;
-    background-size: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,7 +109,7 @@ nav ul li a{
 }
 .banner-head h2{
     color: var(--main-color);
-font-size: 64px;
+font-size: 4rem;
 font-family: var(--primary-font);
 font-weight: 800;
 margin-bottom: 20px;
@@ -98,10 +117,9 @@ margin-bottom: 20px;
 }
 .banner-head p{
     color: var(--main-color);
-font-size: 16px;
+font-size:1rem;
 font-family:var(--primary-font);
 font-weight: 400;
-line-height: 26px;
 }
 .banner-src-box{
     background-color: rgba(255, 255, 255, 0.30);
@@ -122,11 +140,103 @@ line-height: 26px;
     border: none;
     border-radius: 8px;
     color: var(--secondary-color);
-    font-size: 16px;
+    font-size:1rem;
     font-family: var(--primary-font);
     font-weight: 400;
     padding-right: 10px;
     padding-left: 10px;
 }
 /* banner css end */
+/* popular css start */
+.popular{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.popular-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 24px;
+    width: 44%;
+}
 
+.popular-text ul{
+    list-style: circle;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 14px;
+    padding-left: 20px;
+}
+.popular-img img{
+   border-radius: 16px;
+}
+/* popular css end */
+/* destination css start */
+.destination-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.destination-img-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+}
+.destination-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    text-align: center;
+    line-height: 300px;
+}
+.destination-img h3{
+    color: var(--main-color);
+font-size: 1.8rem;
+font-family:var(--primary-font);
+font-weight: 800;
+}
+.img1{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%) ,url(../Images/Rectangle\ 1.png);
+    height: 300px;
+    width:573px;
+}
+.img2{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url(../Images/Rectangle\ 2.png) ;
+    height: 300px;
+    width:573px;
+}
+.img3{
+    width: 374px;
+    height: 286px;
+    background:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url(../Images/Rectangle\ 3.png);
+}
+.img4{
+    width: 474px;
+    height: 286px;
+    background:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url(../Images/Rectangle\ 4\ \(2\).png);
+}
+.img5{
+    width: 274px;
+    height: 286px;
+    background:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%) ,url(../Images/Rectangle\ 5.png);
+}
+.img6{
+    width: 473px;
+    height: 300px;
+    background:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%) ,url(../Images/Rectangle\ 6.png);
+}
+.img7{
+    width: 673px;
+    height: 300px;
+    background:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%) ,url(../Images/Rectangle\ 7.png);
+}
