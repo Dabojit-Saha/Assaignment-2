@@ -43,6 +43,15 @@ font-weight: 800;
     font-weight: 400;
     
 }
+.primary-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    text-align: center;
+    margin-bottom: 48px;
+}
 /* common css end */
 /* varriables */
 
@@ -176,15 +185,7 @@ font-weight: 400;
 }
 /* popular css end */
 /* destination css start */
-.destination-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    text-align: center;
-    margin-bottom: 48px;
-}
+
 .destination-img-box{
     display: flex;
     flex-wrap: wrap;
@@ -239,4 +240,142 @@ font-weight: 800;
     width: 673px;
     height: 300px;
     background:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%) ,url(../Images/Rectangle\ 7.png);
+}
+/* destination css end */
+/* choose css start */
+.choose{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.choice-box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.choice-box h3{
+    color: var(--third-color);
+font-size: 1.5rem;
+font-family: var(--primary-font);
+font-weight: 800;
+}
+.choice-box{
+    background: rgba(251, 181, 99, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 24px;
+    padding: 35px;
+    width: 573px;
+    border: 1px rgba(251, 181, 99, 0.20) solid ;
+    border-radius: 16px;
+    transition: all linear .4s;
+}
+.choice-box:hover{
+    background:rgba(41, 206, 246, 0.05);
+    border:1px rgba(41, 206, 246, 0.20) solid;
+}
+/* choose css end*/
+
+/*  newsletter css start  */
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 30px;
+}
+.from{
+    background:var(--main-color);
+    border-radius: 16px;
+    width: 40%;
+    height: fit-content;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+    border: 1px solid var(--primary-color);
+}
+.from h3{
+    color: var(--third-color);
+font-size: 1.5rem;
+font-family: var(--primary-font);
+font-weight: 800;
+}
+.from input{
+    background-color: rgba(19, 19, 24, 0.05);
+    border: none;
+    border-radius: 8px;
+    color: var(--secondary-color);
+    font-size:1rem;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 52px;
+    width: 393px;
+    border-radius: 8px;
+}
+.from button{
+    color: var(--main-color);
+    font-size: 1rem;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    text-align: center;
+    background: var(--primary-color);
+    padding: 15px 30px;
+    border-radius: 8px;
+    width: 393px;
+    border: none;
+    transition: all linear .4s;
+}
+.from button:hover{
+    background: #332941;
+}
+.off{
+    background: var(--primary-color);
+    width: 324px;
+    padding: 20px;
+    border-radius: 50px 50px 16px 16px;
+    text-align: center;
+    position: relative;
+   bottom: 344px ;
+   left: 322px;
+   transform: rotate(50deg);
+    
+}
+.off p{
+    color: var(--main-color);
+    font-size: 1.5rem;
+    font-family: var(--primary-font);
+    font-weight: 400;
+}
+.off h4{
+    color: var(--main-color);
+    font-size: 2rem;
+    font-family: var(--primary-font);
+    font-weight: 800;
+}
+/* newsletter css end */
+/* footer css start */
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    ;
+}
+.footer .nav-logo{
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 26px;
+}
+.footer p{
+    margin-top: 24px;
 }
