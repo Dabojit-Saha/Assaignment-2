@@ -397,3 +397,9 @@ font-weight: 800;
 #footer p{
     margin-top: 24px;
 }
+#footer .line{
+    height: 2px;
+    width: auto;
+    background-color: var(--secondary-color);
+    
+}
