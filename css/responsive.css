@@ -15,8 +15,8 @@
    .hamburger{
     display: block;
    }
-   .hamburger:hover nav ul{
-    display: flex;
+   .hamburger:hover + nav ul{
+    display:flex;
    }
    #banner{
     background-position: center;
