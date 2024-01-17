@@ -93,6 +93,10 @@ nav ul li a{
     font-size: 1.2rem;
     font-family: var(--primary-font);
     font-weight: 400;
+    transition: all linear .4s;
+}
+nav ul li a:hover{
+    color: var(--primary-color);
 }
 .hamburger{
     font-size: 2.4rem;
@@ -282,7 +286,6 @@ font-weight: 800;
 .newsletter{
     display: flex;
     justify-content: space-between;
-    align-items: start;
     margin-bottom: 30px;
 }
 .from{
@@ -333,16 +336,28 @@ font-weight: 800;
 .from button:hover{
     background: #332941;
 }
-.off{
+.newsletter-img{
+    background-image: url(../Images/Group\ 40089.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+   
+    
+}
+.newsletter-img .off{
     background: var(--primary-color);
     width: 324px;
     padding: 20px;
     border-radius: 50px 50px 16px 16px;
     text-align: center;
+    transform: rotate(50deg);
     position: relative;
-   bottom: 344px ;
-   left: 322px;
-   transform: rotate(50deg);
+    top: 85px;
+    left: 383px;
+    
     
 }
 .off p{
@@ -359,15 +374,18 @@ font-weight: 800;
 }
 /* newsletter css end */
 /* footer css start */
-.footer{
-    background: rgba(19, 19, 24, 0.05);
+#footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    background-position: center;
+    background-size: cover;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
-    ;
+
 }
-.footer .nav-logo{
+#footer .nav-logo{
     justify-content: center;
+    align-items: center;
 }
 .icons{
     display: flex;
@@ -376,6 +394,6 @@ font-weight: 800;
     margin-bottom: 30px;
     margin-top: 26px;
 }
-.footer p{
+#footer p{
     margin-top: 24px;
 }

@@ -3,6 +3,9 @@
    .container{
     width: auto;
     margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+
    }
     nav ul{
     display: none;
@@ -11,6 +14,9 @@
    }
    .hamburger{
     display: block;
+   }
+   .hamburger:hover nav ul{
+    display: flex;
    }
    #banner{
     background-position: center;
@@ -22,11 +28,50 @@
         height: fit-content;
         width: auto;
     }   
-    .navlogo h1 , .banner-head h2{
-        font-size: 2rem;
+    .nav-logo h1 , .banner-head h2{
+        font-size: 1.5rem;
     } 
     .banner-head{
         padding: 25px 20px;
     }
-    
+    .popular{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .popular-text , .choice-box {
+        width: auto;
+    }
+    .popular-img img{
+        width: 100%;
+    }
+    .destination-img , .newsletter-img{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .newsletter{
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 20px;
+    }
+    .from{
+        width: fit-content;
+        height: auto;
+        align-items: center;
+       
+    }
+    .newsletter .off{
+        width: 240px;
+        top: 65px;
+        left: 250px;
+    }
+    .off h4{
+        font-size: 1.2rem;
+    }
+    .footer{
+        margin-top: 25px;
+       padding-top: 50px;
+       padding-bottom: 50px;
+    }
+
 }
