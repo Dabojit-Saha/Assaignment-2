@@ -281,7 +281,6 @@ font-weight: 800;
     border:1px rgba(41, 206, 246, 0.20) solid;
 }
 /* choose css end*/
-
 /*  newsletter css start  */
 .newsletter{
     display: flex;
@@ -344,7 +343,6 @@ font-weight: 800;
     width: 672px;
     height: 422px;
     border-radius: 16px;
-   
     
 }
 .newsletter-img .off{
